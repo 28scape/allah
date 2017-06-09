@@ -1,0 +1,159 @@
+/******** 28Scape.com CSS written and maintained by Baudrillard Web Services ********/
+* {
+  font-family: 'VT323', monospace;
+  text-align: center;
+}
+
+body {
+  background: rgb(0, 0, 0);
+  padding: 16px;
+}
+
+/******* NAV BAR *******/
+nav {
+  font-size: 150%;
+  border-top: 1px solid #460;
+  border-right: 1px solid #460;
+  border-left: 1px solid #460;
+  background-color: #666
+}
+
+nav a:hover {
+    background-color:#333;
+}
+/****** END OF NAV BAR *******/
+
+/****** TEXT SHIT ********/
+h1, h2, h3, h4, p, li {
+  color: rgb(0, 212, 0);
+}
+
+p {
+  font-size: 26px;
+}
+
+li, h4 {
+  font-size: 22px;
+}
+
+a {
+  color: #ccffdc;
+  text-decoration: none;
+}
+
+ul {
+  display:table;
+  margin:0 auto;
+  border: 5px solid red;
+}
+
+h1 {
+  font-size: 52px;
+}
+
+/******** END OF TEXT SHIT **********/
+
+
+/********** BORDERS ***********/
+.borderone {
+  border: 5px solid red;
+}
+/********** END OF BORDERS ***********/
+
+
+/*********** IFRAME **********/
+iframe {
+  border: 5px solid red;
+}
+/********** IFRAME *********/
+
+/********* BUTTON BUTTON BUTTON BUTTON BUTTON BUTTON *********/
+.button {
+  border-radius: 4px;
+  background-color: #666;
+  border: none;
+  color: #333;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+/********* BUTTON BUTTON BUTTON BUTTON BUTTON BUTTON *********/
+
+
+/********* DUO COLUMNS *********/
+.duocolumn {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+}
+/********** DUO COLUMNS **********/
+
+
+/********* TRIO COLUMNS **********/
+.triocolumn {
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+}
+/********* TRIO COLUMNS **********/
+
+
+/********** FOOTER **********/
+.footer {
+    background-color: #666;
+    font-size: 125%;
+    padding: 2px;
+    text-decoration: none;
+}
+/********** END FOOTER **********/
+
+
+/********** HR ***********/
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 4px;
+	  border-color: #666;
+}
+/*********** END HR ***********/
